@@ -1,8 +1,13 @@
 'use client'
-import React from "react";
 import { MapPin, Phone, Mail, Globe } from "lucide-react";
+import React, { useEffect, useState } from "react";
 
 const Contact: React.FC = () => {
+   const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  if (!mounted) return null; 
+  
   return (
     <section id="contact">
       {/* Title */}
