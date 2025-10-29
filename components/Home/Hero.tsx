@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       <div className="flex flex-col md:flex-row items-center"> 
         
         {/* text */}
-        <div className="text-div w-full md:w-1/2">
+        <div className=" w-full md:w-1/2">
           <div className="md:w-[90%]">
             <h1 className="text-4xl md:text-[50px] font-bold text-[#303030] leading-10 md:leading-[68px] mb-6 md:mb-[65px] md:pr-0 pr-4">
               Navigate PPR 2025 Rules with Ease,{" "}
