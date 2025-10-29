@@ -17,8 +17,8 @@ const Contact: React.FC = () => {
 
       <div className="flex flex-col md:flex-row gap-8 md:gap-[29px] md:pl-30 md:pr-[77px]">
         {/* left form */}
-        <div className=" px-4 md:px-0 ">
-          <form className="bg-[#DDF3D1] rounded-[10px] w-full md:w-[509px] md:h-[584px] flex flex-col gap-[15px] p-4 md:py-7 md:px-[37px]">
+        <div className="flex-1 px-4 md:px-0 ">
+          <form className="bg-[#DDF3D1] rounded-[10px] w-full md:w-[90%] md:h-[584px] flex flex-col gap-[15px] p-4 md:py-7 md:px-[37px]">
             <div>
               <label className="block text-sm md:text-[20px]  font-medium ">
                 Full Name
@@ -74,7 +74,7 @@ const Contact: React.FC = () => {
         </div>
 
         {/* right text */}
-        <div className=" px-4 md:px-0 w-full md:w-[596px]">
+        <div className="flex-1 px-4 md:px-0 w-full md:w-[596px]">
           <h2 className="text-xl md:text-[32px] text-[#303030] font-bold mb-4">
             Get in Touch
           </h2>

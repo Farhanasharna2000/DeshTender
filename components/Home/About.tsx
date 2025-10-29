@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const Chatbot: React.FC = () => {
+const About: React.FC = () => {
   return (
     <section id="about" className="bg-[#C8DDBC] md:pl-[120px]">
       <div className="grid md:grid-cols-2 md:gap-[103px]">
@@ -66,4 +66,4 @@ const Chatbot: React.FC = () => {
   );
 };
 
-export default Chatbot;
+export default About;

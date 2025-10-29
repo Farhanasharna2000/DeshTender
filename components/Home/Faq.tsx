@@ -34,7 +34,7 @@ const Faq: React.FC = () => {
           {faqData.map((item, index) => (
             <div
               key={index}
-              className="collapse collapse-arrow bg-[#DDF3D1] rounded-[10px] py-1.5"
+              className="collapse collapse-arrow bg-[#DDF3D1] rounded-[10px] py-2.5 px-1"
             >
               <input type="radio" name="faq-accordion" />
               <div className="collapse-title text-base md:text-[20px]">
