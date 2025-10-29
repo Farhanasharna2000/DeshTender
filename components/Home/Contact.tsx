@@ -4,7 +4,7 @@ import { MapPin, Phone, Mail, Globe } from "lucide-react";
 
 const Contact: React.FC = () => {
   return (
-    <section>
+    <section id="contact">
       {/* Title */}
       <div className="text-center text-[#303030]">
         <h1 className="text-3xl md:text-[40px] font-bold mb-4 md:mb-5 md:leading-[17px]">

@@ -4,7 +4,7 @@ import React from "react";
 
 const Faq: React.FC = () => {
   return (
-    <section className="pt-12 md:pt-[114.43px] pb-12 md:pb-[103px] pr-4 pl-4 md:pl-[63px] md:pr-30">
+    <section id="faqs" className="pt-12 md:pt-[114.43px] pb-12 md:pb-[103px] pr-4 pl-4 md:pl-[63px] md:pr-30">
       {/* Title */}
       <div className="text-center text-[#303030]">
         <h1 className="text-3xl md:text-[40px] font-bold mb-4 md:mb-5 md:leading-[17px]">
@@ -30,7 +30,7 @@ const Faq: React.FC = () => {
         </div>
 
         {/* faq data */}
-        <div className="w-full md:w-[590px] space-y-4 md:space-y-[15px]">
+        <div className="w-full md:w-[590px] flex-1 space-y-4 md:space-y-[15px]">
           {faqData.map((item, index) => (
             <div
               key={index}
