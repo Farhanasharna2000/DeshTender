@@ -4,7 +4,10 @@ import React, { useEffect, useState } from "react";
 
 const Contact: React.FC = () => {
    const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
+  useEffect(() => {
+    const id = setTimeout(() => setMounted(true), 0);
+    return () => clearTimeout(id);
+  }, []);
 
   if (!mounted) return null; 
   
@@ -71,7 +74,7 @@ const Contact: React.FC = () => {
             <button
               type="submit"
               className="bg-[#72C02C] text-white font-bold text-lg mt-[15px] md:text-2xl w-[245px] h-[50px] 
-              rounded-[10px]"
+              rounded-[10px] cursor-pointer"
             >
               Send message
             </button>
