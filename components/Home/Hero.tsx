@@ -46,8 +46,8 @@ const Hero: React.FC = () => {
         </div>
 
         {/* hero image for desktop */}
-        <div className="absolute top-[43%] left-[43%] hidden md:block ">
-          <Image src="/hero/hero.png" alt="hero" width={772} height={531} className=""/>
+        <div className="absolute top-[53%] left-[50%] hidden md:block ">
+          <Image src="/hero/hero.png" alt="hero" width={772} height={531}/>
         </div>
       </div>
       {/* hero image for mobile  */}

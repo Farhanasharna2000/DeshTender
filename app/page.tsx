@@ -1,11 +1,13 @@
 import Hero from "@/components/Home/Hero";
-import Chatbot from "../components/Home/Chatbot";
+import Faq from "@/components/Home/Faq";
+import Chatbot from "@/components/Home/Chatbot";
 
 export default function Home() {
   return (
     <div>
       <Hero/>
       <Chatbot/>
+      <Faq/>
     </div>
   );
 }

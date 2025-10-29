@@ -7,7 +7,7 @@ const Chatbot: React.FC = () => {
       <div className="grid md:grid-cols-2 md:gap-[103px]">
         {/* left side image*/}
         <div className="pb-6 md:pb-40 pt-[100px] md:pt-[155px] relative px-4 md:px-0">
-          <div className=" ">
+          <div >
             <Image
               src="/chatbot/chatbot1.png"
               alt=""
